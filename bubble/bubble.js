@@ -1,3 +1,4 @@
+
 var bub = function () {
 
     function bubble(vars) {
@@ -16,7 +17,10 @@ var bub = function () {
     }
 
     function dom() {
-        alert(bubble([7, 2, 3, 5, 6, 8, 9, 11, 0]))
+        $('#change-bubble').off('click').on('click',function(){
+           var  list=$('#bubble').val();           
+           $('#bubble').val(bubble(list.split(',')))
+        })
     }
 
     return {
