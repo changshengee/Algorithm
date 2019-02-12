@@ -5,3 +5,5 @@
 先前 [选择排序](./selection/selection.md)
 
 2019.2.11 [插入排序](./insertion/insertion.md)
+
+2019.2.12 [希尔排序](./shellSort/shellSort.md)
