@@ -29,4 +29,4 @@ var select = function () {
             dom();
         }
     }
-}()
+}();
