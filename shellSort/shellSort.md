@@ -8,7 +8,7 @@
 
 ## 基本步骤
 
-1.选择增量gap ：gap=length/2（
+#### 1.选择增量gap ：gap=length/2（
 常用的增量序列：（{n/2,(n/2)/2,((n/2)/2)/2,...}）
 ）
-2.图例![图例](./shellSort.png)
+#### 2.图例![图例](./shellSort.png)
