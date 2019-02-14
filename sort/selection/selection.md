@@ -9,4 +9,4 @@
 2.在剩余序列取最小值，置于次；
 3.重复1,2；
 
-## [js代码](./selection.js)
+## [js代码](selection.js)
