@@ -8,7 +8,7 @@ public class Array {
 
   public static void main(String[] args) {
     int[][] arr = {{1, 2, 8, 9}, {2, 4, 9, 12}, {4, 7, 10, 13}, {6, 8, 11, 15}};
-    int num = 11;
+    int num = 4;
     System.out.println("暴力解题：" + directFind(arr, num));
     System.out.println("右上角解题：" + topRight(arr, num));
     System.out.println("右下角解题：" + bottomRight(arr, num));
@@ -21,22 +21,21 @@ public class Array {
    * @param num 目标数
    * @return 布尔
    */
-  private static String topRight(int[][] arr, int num) {
-    for (int i = arr.length; i > 0; i--) {
-      int[] inner = arr[i];
-      for (int j = inner.length; j > 0; j--) {
-        int current = inner[j];
-        if (num < j) {
-          // todo 后面
+  private static boolean topRight(int[][] arr, int num) {
+    boolean flag=false;
+    out:for (int i = arr.length; i > 0; i--) {
+      int[] inner = arr[i-1];
+      for (int current : inner) {
+        if (num < current) {
+          continue out;
+        } else if (num == current) {
+          flag = true;
         }
-
       }
-
-
     }
 
 
-    return null;
+    return flag;
   }
 
   /**
