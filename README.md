@@ -14,4 +14,4 @@
 
 2019.2.13 [最大公约数](other/divisor/divisor.md)
 
-2019.2.14 [二维数组查找](other/array/array.md)
+2019.2.14-15 [二维数组查找](other/array/array.md)
