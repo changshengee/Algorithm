@@ -27,7 +27,9 @@ public class Array {
       for (int j = inner.length; j > 0; j--) {
         int current = inner[j];
         if (num < j) {
-          // todo 后面
+
+
+
         }
 
       }

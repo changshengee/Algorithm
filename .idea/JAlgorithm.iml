@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/sort/shellSort" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/other/divisor" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/other/array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/other/replace-string" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
