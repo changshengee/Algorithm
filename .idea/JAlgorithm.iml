@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/other/array" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/other/replace-string" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/other/practice" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/other/list" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
